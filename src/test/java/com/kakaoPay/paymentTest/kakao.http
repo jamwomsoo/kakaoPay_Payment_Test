@@ -1,0 +1,18 @@
+POST https://kapi.kakao.com/v1/payment/ready
+Content-type: application/x-www-form-urlencoded;charset=utf-8
+Authorization: KakaoAK cbfe56d98ec364f4e7b331348437d0af
+
+{
+        "cid": "TC0ONETIME",
+        "partner_order_id":"1001",
+        "partner_user_id": "gorany",
+        "item_name": "갤럭시 S9",
+        "quantity": "1",
+        "total_amount": "2100",
+        "vat_amount":"200",
+        "tax_free_amount": "100",
+        "approval_url": "http://localhost:3000/",
+        "cancel_url": "http://localhost:3000/",
+        "fail_url": "http://localhost:3000/"
+}
+
